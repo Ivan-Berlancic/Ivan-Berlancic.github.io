@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Predstavljanje</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @media (max-width: 767.98px) {
+        #videoPlayer {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar kako bi lakše mogli pristupiti stranicama -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Studenti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="ivanCV.html"
+                >Ivan Berlančić</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="draganCV.html">Dragan Brajković</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Glavna slika i informacije -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div
+          class="col-md-12 d-flex justify-content-center align-items-end text-center"
+        >
+          <h4>Dobrodošli na stranicu predstavljanja studenata poslodavcima!</h4>
+        </div>
+        <div
+          class="col-md-12 d-flex justify-content-center align-items-end text-center"
+        >
+          <p>
+            Saznajte opće informacije o pojedinom studentu klikom na link
+            studenta
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-end text-center mt-3"
+        >
+          <a data-fancybox="gallery" href="slike\high_res.jpg"
+            ><img
+              src="slike\low_res2.jpg"
+              class="img-fluid"
+              alt="Your Picture"
+              style="max-width: 100%; max-height: 100%"
+          /></a>
+        </div>
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-end text-center"
+        >
+          <a data-fancybox="gallery" href="slike\drago-higher-res.jpg"
+            ><img
+              src="slike\drago-lowq.jpg"
+              class="img-fluid"
+              alt="Your Picture"
+              style="max-width: 100%; max-height: 100%"
+          /></a>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-6 mt-5 text-center"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <!-- Podaci o obrazovanju, slike -->
+
+          <h3>Ivan Berlančić</h3>
+          <p>
+            Student stručnog studija Računarstva,
+            <a href="https://www.ferit.unios.hr/">FERIT</a>
+          </p>
+          <a href="ivanCV.html">Stranica studenta</a>
+          <br /><br />
+          <h5>Kratko audio predstavljanje</h5>
+          <audio controls>
+            <source src="audio\mp3kratko.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div
+          class="col-md-6 mt-5 text-center"
+          style="background-color: #f0f0f0; padding: 20px"
+        >
+          <!-- Podaci o obrazovanju, slike -->
+
+          <h3>Dragan Brajković</h3>
+          <p>
+            Student stručnog studija Računarstva,
+            <a href="https://www.ferit.unios.hr/">FERIT</a>
+          </p>
+          <a href="draganCV.html">Stranica studenta</a>
+          <br /><br />
+          <h5>Kratko audio predstavljanje</h5>
+          <audio controls="">
+            <source src="audio\predstavljanje.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <!-- Linkovi za stranice ostalih studenata -->
+
+    <div class="container mt-5 d-flex justify-content-center">
+      <h5>Stranice ostalih studenata:</h5>
+      <ul>
+        <li>
+          <a href="https://arac222.github.io/CVSite/luka_aracic.html"
+            >Luka Aračić</a
+          >
+        </li>
+        <li><a href="https://cronix-business.github.io/">Petar Ruškan</a></li>
+        <li>
+          <a href="https://klanjz.github.io/Robert_Klanjscek/"
+            >Robert Klanjšček</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer mt-5 bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>
+          &copy; Web stranica je izrađena za vrijeme pohađanja Fakulteta
+          elektrotehnike, računarstva i informacijskih tehnologija u Osijeku
+          <a href="https://www.ferit.unios.hr/">FERIT</a> u sklopu kolegija
+          <a href="https://moodle.srce.hr/2023-2024/course/view.php?id=163509"
+            >Multimedijska tehnika</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

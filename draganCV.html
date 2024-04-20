@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predstavljanje</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Studenti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="ivanCV.html"
+                >Ivan Berlančić</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Dragan Brajković</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="w-50 text-center about-me">
+      <div class="container-fluid">
+        <div class="row">
+          <h2>O meni</h2>
+          <div class="col-3">
+            <a data-fancybox="gallery" href="slike\drago-higher-res.jpg"
+              ><img
+                src="slike\drago-lowq.jpg"
+                alt=""
+                style="height: 200px; width: 200px"
+            /></a>
+          </div>
+          <div class="col pt-3">
+            <h2>Dragan Brajković</h2>
+            <p>Student stručnog studija Računarstva</p>
+
+            <ul class="list-unstyled">
+              <li>
+                <strong>Mjesto rođenja:</strong>
+                <a href="https://www.virovitica.hr/">Virovitica</a>
+              </li>
+              <li>
+                <strong>Mjesto prebivališta:</strong>
+                <a href="https://slatina.net/">Slatina</a>
+              </li>
+
+              <li>
+                <strong>Interesi:</strong>
+                <a href="https://app.dartboard.io/profile/Dragan776/346782"
+                  >Pikado</a
+                >, Računala,
+                <a href="https://steamcommunity.com/id/quaetz/">Video igrice</a
+                >,
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    &nbsp; &nbsp;
+
+    <div class="education p-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2>Obrazovanja</h2>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="http://os-jkozarca-slatina.skole.hr/"
+                  >Osnovna škola Josipa Kozarca</a
+                >, Slatina
+              </li>
+              <li>
+                <a href="http://www.ss-mmarulica-slatina.skole.hr/"
+                  >Srednja škola Marka Marulića</a
+                >, Slatina, smjer Elektrotehnika
+              </li>
+              <li>
+                <a href="https://www.ferit.unios.hr/">FERIT</a>, smjer: stručni
+                računarstvo
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="gallery pl-2">
+              <a data-fancybox="gallery" href="slike\srednjaškola-hiq.png">
+                <img
+                  src="slike/srednjaškola-lowq.jpeg"
+                  alt=""
+                  width="400"
+                  height="400"
+                />
+              </a>
+              <div class="desc">SŠMM Slatina</div>
+            </div>
+
+            <div class="gallery">
+              <a data-fancybox="gallery" href="slike\ferit-hiq.png">
+                <img
+                  src="slike/ferit.png"
+                  alt="Forest"
+                  width="400"
+                  height="400"
+                />
+              </a>
+              <div class="desc">FERIT Osijek</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills mx-auto mt-3">
+      <h2 class="text-center">Znanja i projekti</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <strong>Programski jezici:</strong>
+            <ul class="list-unstyled">
+              <li>C</li>
+              <li>Java/Kotlin</li>
+              <li>Dart/Flutter</li>
+              <li>Python</li>
+              <li>HTML, CSS, JavaScript, PHP</li>
+            </ul>
+
+            <strong>Strani jezici:</strong>
+            <ul class="list-unstyled">
+              <li>Odlično razumijevanje engleskog jezika</li>
+              <li>Osnovno razumijevanje ruskog jezika</li>
+            </ul>
+          </div>
+          <div class="col">
+            <strong>Projekti:</strong>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://github.com/DBraja1738/ProjektniZadatak/tree/main/projekt"
+                  >Konsolna aplikacija za evidenciju radnika u C jeziku</a
+                >
+              </li>
+              <li>Prepoznavanje prometnih znakova na videozapisu</li>
+              <li>
+                <a href="https://github.com/DBraja1738/anotherSoundCloudClone"
+                  >Web aplikacija za djeljenje glazbe</a
+                >
+              </li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-group">
+            <div class="card" style="width: 18rem">
+              <a data-fancybox="gallery" href="slike/ASCC.png">
+                <img src="slike/ASCC.png" class="card-img-top" alt="..." />
+              </a>
+              <div class="card-body">
+                <p class="card-text">Web stranica za djeljenje glazbe</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <a data-fancybox="gallery" href="slike/sign detection.png">
+                <img
+                  src="slike/sign detection.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">
+                  Prepoznavanje prometnih znakova na videozapisu
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 text-center">
+      <h4>Audio predstavljanje</h4>
+      <br />
+      <audio controls="">
+        <source src="audio/predstavljanje.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="container mt-5 text-center">
+      <h4>Videozapis o mom rodnom kraju</h4>
+      <br />
+      <video controls="" class="d-block mx-auto" width="768" height="432">
+        <source
+          src="video/Stara Podravska Slatina - Video razglednice 2-2023.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Linkovi za stranice ostalih studenata -->
+
+    <div class="container mt-5 d-flex justify-content-center">
+      <h5>Stranice ostalih studenata:</h5>
+      <ul>
+        <li>
+          <a href="https://arac222.github.io/CVSite/luka_aracic.html"
+            >Luka Aračić</a
+          >
+        </li>
+        <li><a href="https://cronix-business.github.io/">Petar Ruškan</a></li>
+        <li>
+          <a href="https://klanjz.github.io/Robert_Klanjscek/"
+            >Robert Klanjšček</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <footer class="footer mt-5 bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>
+          © Web stranica je izrađena za vrijeme pohađanja Fakulteta
+          elektrotehnike, računarstva i informacijskih tehnologija u Osijeku
+          <a href="https://www.ferit.unios.hr/">FERIT</a> u sklopu kolegija
+          <a href="https://moodle.srce.hr/2023-2024/course/view.php?id=163509"
+            >Multimedijska tehnika</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
